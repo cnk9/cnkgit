@@ -7,7 +7,7 @@ node {
 	  }
 	  stage('code scan'){
 	  sh 'mvn sonar:sonar \
-	   -Dsonar.host.url=http://34.67.217.8:9000 \
+	   -Dsonar.host.url=http://35.226.143.202:9000 \
 	   -Dsonar.login=204b7350cdb78f81cb29fe65927e83d64c1377d8'
 	   }
 	  stage('compile'){
